@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Dev Electronics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Devanagari', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #0073e6, #005bb5);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid #004080;
+        }
+        .header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        }
+        .header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+        .section {
+            padding: 20px;
+            margin: auto;
+            max-width: 1200px;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 5px solid black;
+        }
+        .section h2 {
+            font-size: 2em;
+            color: #005bb5;
+            margin-bottom: 10px;
+            display: inline-block;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #333;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            padding-bottom: 10px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            border-left: 4px solid black;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #005bb5;
+        }
+        .product p {
+            font-size: 0.95em;
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1em;
+            margin-top: 40px;
+            border-top: 4px solid #004080;
+        }
+        .button {
+            background-color: #005bb5;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .button:hover {
+            background-color: #004080;
+        }
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            .header p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>जय देव इलेक्ट्रॉनिक्स</h1>
+        <p>उच्च गुणवत्ता और किफायती मूल्य में इलेक्ट्रॉनिक्स</p>
+    </div>
+
+    <div class="section">
+        <h2>हमारे लोकप्रिय उत्पाद</h2>
+        <p style="font-size: 1.1em;">हम आपके घर और व्यवसाय के लिए सभी आवश्यक वस्तुएं प्रदान करते हैं।</p>
+
+        <div class="products">
+            <div class="product">
+                <img src="https://www.thespruce.com/thmb/WpX9EUHnGiXeux5Fz3_T7SuiRro=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/electrical-wiring-1152909_03_color_coding-49e8a933548d44c488495999ed836093.jpg" alt="वायरिंग और केबल्स">
+                <h3>वायरिंग और केबल्स</h3>
+                <p>सुरक्षित और टिकाऊ वायरिंग, जो आपके घर की सुरक्षा को मजबूत बनाती है।</p>
+                <p><strong>मूल्य:</strong> ₹ 499 प्रति बंडल</p>
+                <a href="https://wa.me/917999641836?text=मुझे%20इस%20उत्पाद%20के%20बारे%20में%20अधिक%20जानकारी%20चाहिए:%20वायरिंग%20और%20केबल्स" class="button" target="_blank">अधिक जानकारी</a>
+            </div>
+
+            <div class="product">
+                <img src="https://www.ny-engineers.com/hs-fs/hubfs/Webp-Images/galvanized-steel-pipe-or-chrome-stainless-pipes.webp?width=750&name=galvanized-steel-pipe-or-chrome-stainless-pipes.webp" alt="पाइपलाइंस और फिटिंग्स">
+                <h3>पाइपलाइंस और फिटिंग्स</h3>
+                <p>विश्वसनीय पाइप और फिटिंग्स, जल आपूर्ति और नलिकाओं के लिए उत्तम।</p>
+                <p><strong>मूल्य:</strong> ₹ 299 से शुरू</p>
+                <a href="https://wa.me/917999641836?text=मुझे%20इस%20उत्पाद%20के%20बारे%20में%20अधिक%20जानकारी%20चाहिए:%20पाइपलाइंस%20और%20फिटिंग्स" class="button" target="_blank">अधिक जानकारी</a>
+            </div>
+
+            <div class="product">
+                <img src="https://www.shubz.in/wp-content/uploads/2021/11/Best-Geyser-Water-Heater-in-India-11.jpg" alt="गेसर">
+                <h3>गेसर</h3>
+                <p>सर्दियों में गर्म पानी की सुविधा, ऊर्जा की बचत के साथ।</p>
+                <p><strong>मूल्य:</strong> ₹ 5,499</p>
+                <a href="https://wa.me/917999641836?text=मुझे%20इस%20उत्पाद%20के%20बारे%20में%20अधिक%20जानकारी%20चाहिए:%20गेसर" class="button" target="_blank">अधिक जानकारी</a>
+            </div>
+
+            <div class="product">
+                <img src="https://cdn4.explainthatstuff.com/induction-cooktop-nrel.jpg" alt="कुकवेयर सेट">
+                <h3>कुकवेयर सेट</h3>
+                <p>सर्वोत्तम गुणवत्ता वाले कुकवेयर, आपके रसोई के लिए।</p>
+                <p><strong>मूल्य:</strong> ₹ 1,199</p>
+                <a href="https://wa.me/917999641836?text=मुझे%20इस%20उत्पाद%20के%20बारे%20में%20अधिक%20जानकारी%20चाहिए:%20कुकवेयर%20सेट" class="button" target="_blank">अधिक जानकारी</a>
+            </div>
+
+            <div class="product">
+                <img src="https://media.gettyimages.com/id/86805357/photo/ceiling-fan.jpg?s=612x612&w=0&k=20&c=i_UPGa-cyV_9mx_wDn7mtFFuHFQq0MMCGmc3hW3fo0c=" alt="पंखे">
+                <h3>पंखे</h3>
+                <p>अत्याधुनिक डिजाइन और शीतलता प्रदान करने वाले उच्च गुणवत्ता वाले पंखे।</p>
+                <p><strong>मूल्य:</strong> ₹ 1,499</p>
+                <a href="https://wa.me/917999641836?text=मुझे%20इस%20उत्पाद%20के%20बारे%20में%20अधिक%20जानकारी%20चाहिए:%20पंखे" class="button" target="_blank">अधिक जानकारी</a>
+            </div>
+
+            <div class="product">
+                <img src="https://www.linquip.com/blog/wp-content/uploads/2021/05/9c6471af700e20a855ad2198b127701c.jpg" alt="स्टार्टर मोटर">
+                <h3>स्टार्टर मोटर</h3>
+                <p>खेती के उपकरण के लिए आदर्श स्टार्टर मोटर, उच्च प्रदर्शन के साथ।</p>
+                <p><strong>मूल्य:</strong> ₹ 6,999</p>
+                <a href="https://wa.me/917999641836?text=मुझे%20इस%20उत्पाद%20के%20बारे%20में%20अधिक%20जानकारी%20चाहिए:%20स्टार्टर%20मोटर" class="button" target="_blank">अधिक जानकारी</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>हमारे बारे में</h2>
+        <p>जय देव इलेक्ट्रॉनिक्स में, हम किफायती मूल्य पर उच्च गुणवत्ता वाले इलेक्ट्रॉनिक्स प्रदान करते हैं। हमारी उत्पाद श्रेणी में घरेलू उपकरण, लाइटिंग, और विद्युत सामान शामिल हैं।</p>
+    </div>
+
+    <div class="section">
+        <h2>संपर्क करें</h2>
+        <p>यदि आपके पास कोई प्रश्न हैं या आपको सहायता की आवश्यकता है, तो कृपया हमसे संपर्क करें:</p>
+        <p><strong>फोन:</strong> <a href="tel:+917999641836" style="color: #005bb5;">+91 79996 41836</a></p>
+        <p><strong>ईमेल:</strong> <a href="mailto:info@jaidevelectronics.com" style="color: #005bb5;">info@jaidevelectronics.com</a></p>
+    </div>
+
+    <div class="footer">
+        <p>संपर्क करें: <a href="tel:+917999641836" style="color: white;">+91 79996 41836</a></p>
+        <p>© 2024 जय देव इलेक्ट्रॉनिक्स. सभी अधिकार सुरक्षित।</p>
+    </div>
+
+</body>
+</html>
